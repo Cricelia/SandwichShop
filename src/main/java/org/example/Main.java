@@ -1,12 +1,13 @@
 package org.example;
 
-import static org.example.Shop.Age;
-import static org.example.Shop.SandwichSize;
+import static org.example.Shop.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        SandwichSize();
-        Age();
+        Shop.SandwichSize();
+        Shop.Loaded();
+        Shop.Age();
+        Shop.Calculations();
     }
 }
